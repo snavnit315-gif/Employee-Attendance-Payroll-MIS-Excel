@@ -6,7 +6,7 @@ The **Employee Attendance & Payroll MIS Dashboard** is an Excel-based MIS report
 
 The workbook brings employee master data, attendance records, and payroll data together for reporting and analysis. It uses Excel formulas, PivotTables, PivotCharts, KPI summaries, and dashboard visualizations to turn structured records into useful HR and payroll information.
 
-The workbook includes three dashboard views: **HR Overview, Attendance Dashboard, and Payroll Dashboard**.
+The workbook includes four dashboard views: **HR Overview, Attendance Dashboard, Payroll Dashboard, and Insights Dashboard**.
 
 ---
 
@@ -64,7 +64,8 @@ Employee-Attendance-Payroll-MIS-Excel/
 ├── images/
 │   ├── HR_Overview.png
 │   ├── Attendance_Dashboard.png
-│   └── Payroll_Dashboard.png
+│   ├── Payroll_Dashboard .png
+│   └── Insights_Dashboard.png
 │
 ├── README.md
 └── .gitattributes
@@ -107,6 +108,20 @@ Presents payroll trends and payroll cost information.
 - Salary and payroll summaries
 - Payroll-related variance review
 
+### 🔹 Insights Dashboard
+
+Presents key insights and management recommendations based on employee, attendance, and payroll data.
+
+- Total employees and total departments
+- Overall attendance rate
+- Total payroll and payroll variance
+- Workforce distribution insights
+- Attendance insights and monitoring recommendations
+- Payroll insights and cost-control recommendations
+- Employee joining trends
+- Workforce planning recommendations
+- Absence management recommendations
+
 ---
 
 ## 📈 Analysis Performed
@@ -144,6 +159,10 @@ Used dashboard visuals to compare categories and highlight areas that may need f
 | Payroll | Monthly payroll trend | Tracks payroll changes over time |
 | Payroll | Planned vs. actual payroll | Compares planned and recorded values, if available |
 | Payroll | Payroll cost breakdown | Reviews payroll cost components |
+| Insights | Attendance rate | Summarizes overall attendance performance |
+| Insights | Payroll variance | Highlights the difference between planned and actual payroll |
+| Insights | Employee joining trends | Supports workforce planning |
+| Insights | Management recommendations | Highlights areas for further review |
 
 *Actual KPI values depend on the workbook data, formulas, and filters. Refer to the workbook for calculated results.*
 
@@ -169,8 +188,15 @@ The Payroll dashboard presents payroll trends, department-wise payroll, planned 
 
 ![Payroll Dashboard](images/Payroll_Dashboard%20.png)
 
+### 4. Insights Dashboard
 
-> **Image note:** Upload the three images into the repository's `images` folder with the exact filenames shown above. GitHub image paths are case-sensitive.
+The Insights Dashboard presents key performance indicators, workforce insights, attendance observations, payroll insights, employee joining trends, and management recommendations.
+
+It includes recommendations covering attendance monitoring, payroll control, workforce planning, and absence management.
+
+![Insights Dashboard](images/Insights_Dashboard.png)
+
+> **Image note:** Upload all four dashboard images into the repository's `images` folder with the exact filenames shown above. GitHub image paths are case-sensitive.
 
 ---
 
@@ -225,11 +251,13 @@ This project demonstrates how Excel-based MIS reporting can help organize HR inf
 
 ### Step 1 — Clone the Repository
 
+Run the following command in your terminal:
+
 ```bash
 git clone https://github.com/snavnit315-gif/Employee-Attendance-Payroll-MIS-Excel.git
 ```
 
-Replace `YOUR-USERNAME` with your GitHub username after creating the repository.
+Alternatively, download the repository using **Code → Download ZIP** on GitHub.
 
 ### Step 2 — Open the Excel Workbook
 
@@ -237,7 +265,7 @@ Open the `Excel` folder and launch `Employee_Attendance_Payroll_MIS.xlsx` in Mic
 
 ### Step 3 — Explore the Dashboards
 
-Review the HR Overview, Attendance, and Payroll dashboards. Use available filters and slicers to explore the data, where supported by the workbook.
+Review the HR Overview, Attendance, Payroll, and Insights dashboards. Use available filters and slicers to explore the data, where supported by the workbook.
 
 ---
 
@@ -291,4 +319,3 @@ If you find this project useful, feel free to:
 - 🍴 Fork the repository.
 - 💡 Share your feedback.
 - 🤝 Connect with me on LinkedIn.
-
