@@ -167,7 +167,7 @@ The Attendance dashboard helps review attendance patterns, department attendance
 
 The Payroll dashboard presents payroll trends, department-wise payroll, planned versus actual payroll where available, and payroll cost composition.
 
-(![Payroll Dashboard](images/Payroll_Dashboard.png))
+![Payroll Dashboard](images/Payroll_Dashboard.png)
 
 
 > **Image note:** Upload the three images into the repository's `images` folder with the exact filenames shown above. GitHub image paths are case-sensitive.
