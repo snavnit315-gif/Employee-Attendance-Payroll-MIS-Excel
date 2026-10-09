@@ -196,7 +196,7 @@ It includes recommendations covering attendance monitoring, payroll control, wor
 
 ![Insights Dashboard](images/Insights_Dashboard.png)
 
-> **Image note:** Upload all four dashboard images into the repository's `images` folder with the exact filenames shown above. GitHub image paths are case-sensitive.
+
 
 ---
 
